@@ -1,0 +1,21 @@
+{% extends 'base/base.html' %}
+
+{% load i18n %}
+
+{% block content %}
+<div class="jumbotron">
+    <h2> {%  trans "Create post" %}</h2>
+</div>
+<div class="container">
+    <form action="{% url 'post_create' %}" method="POST">
+        {% csrf_token %}
+        {% for field in form %}
+            <div class="form-group">
+                {{ field.label }}
+                {{ field }}
+            </div>
+        {% endfor %}
+        <button type="submit" class="save btn btn-primary">Save</button>
+    </form>
+</div>
+{% endblock %}
