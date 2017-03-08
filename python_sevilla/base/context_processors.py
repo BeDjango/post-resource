@@ -13,6 +13,9 @@ breadcrumbs_views = {'home': [home],
                      'contact': [home, (_('Contact'), 'contact')],
                      'lists': [home, (_('Lists'), 'lists')],
                      'panels': [home, (_('Panels'), 'panels')],
+                     'posts_lists': [home, ('Post', 'posts_lists')],
+                     'post_detail': [home, ('Post', 'posts_lists'), ('Post details', 'post_detail')],
+                     'post_create': [home, ('Post', 'posts_lists'), ('Post create', 'post_create')]
                      }
 
 
