@@ -6,9 +6,14 @@
 <h2>{%  trans 'Detail for a post' %}</h2>
 </div>
 <div class="container">
-    <h4>{{ post.content }}</h4>
-    <p>
-        {{ post.name }}
-    </p>
+<div class="panel panel-default django-panel">
+            <div class="panel-heading">
+                <h2>{{ post.name }}</h2>
+            </div>
+            <div class="panel-body">
+                <p>
+                    {{ post.content }}</p>
+            </div>
+        </div>
 </div>
 {% endblock %}
