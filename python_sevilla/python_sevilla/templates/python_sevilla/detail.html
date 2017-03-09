@@ -15,5 +15,10 @@
                     {{ post.content }}</p>
             </div>
         </div>
+
+        <form method="POST" action="{% url 'post_delete' post.pk %}">
+            {% csrf_token %}
+            <input type="submit" value="Delete" class="btn btn-primary" >
+        </form>
 </div>
 {% endblock %}
