@@ -1,4 +1,4 @@
-# Note: This repository has been used for a demonstration in a python-sevilla event. To use the bedjango starter view the [BeDjango repo](https://github.com/BeDjango/bedjango-starter)
+# Note: This repository is being used as sample code for bedjango posts. To use the real bedjango starter view the [BeDjango repo](https://github.com/BeDjango/bedjango-starter)
 
 # BeDjango starter skeleton ![](http://www.bedjango.com/static/images/logo-bedjango.svg)
 
